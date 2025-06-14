@@ -1,0 +1,20 @@
+# Ignore directories
+# Python environment
+venv/
+_pycache_/
+*.pyc
+
+# API secrets
+.env
+
+
+# Scraped data (optional)
+downloaded_threads/
+markdown_files/
+
+# Playwright auth
+auth.json
+
+# OS files
+.DS_Store
+Thumbs.db
